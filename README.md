@@ -48,3 +48,21 @@ Full details are available in the paper.
 
 - Publicly available **Bank of Thailand press releases**  
 - Annotation via AI-assisted labeling with manual validation
+
+---
+
+## Installation Notes
+
+To reproduce the results in the reference notebook, install the required Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+This project additionally requires the following NLTK resources, which are not included in `requirements.txt` and must be downloaded separately:
+
+```bash
+python -m nltk.downloader punkt wordnet
+```
+
+The analysis was executed using **Python 3.11** in a virtual environment
