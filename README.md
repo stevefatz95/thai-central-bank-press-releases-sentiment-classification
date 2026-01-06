@@ -65,4 +65,4 @@ This project additionally requires the following NLTK resources, which are not i
 python -m nltk.downloader punkt wordnet
 ```
 
-The analysis was executed using **Python 3.11** in a virtual environment
+The analysis was executed using **Python 3.10.13** in a virtual environment
